@@ -55,7 +55,7 @@ class _MyHomePageState extends State<_MyHomePage> {
                 primaryYAxis: NumericAxis(
                   minimum: 20,
                 ),
-                series: <ChartSeries<_SalesData, int>>[
+                series: <LineSeries<_SalesData, int>>[
               LineSeries<_SalesData, int>(
                   dataSource: data,
                   xValueMapper: (_SalesData sales, _) => sales.xValue,
